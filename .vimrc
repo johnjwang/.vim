@@ -2,6 +2,7 @@
 call plug#begin('~/.vim/bundle')
 Plug 'tpope/vim-sensible'
 Plug 'vim-airline/vim-airline'
+Plug 'ctrlpvim/ctrlp.vim'
 call plug#end()
 
 " Implied by plug#end()
@@ -39,7 +40,6 @@ set cindent
 set cinoptions=l1,(0,u0,j1
 set ignorecase
 set smartcase
-set autochdir
 
 " navigate splits more easily
 nnoremap <C-h> <C-w><C-h>
