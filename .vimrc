@@ -37,7 +37,7 @@ noremap <C-e> <End>
 noremap! <C-a> <Home>
 noremap! <C-e> <End>
 set cindent
-set cinoptions=l1,(0,u0,j1
+set cinoptions=l1,(0,u0,j1,:0
 set ignorecase
 set smartcase
 
@@ -61,3 +61,6 @@ let g:airline_left_sep = ''
 let g:airline_left_alt_sep = ''
 let g:airline_right_sep = ''
 let g:airline_right_alt_sep = ''
+
+" ctrlp ignore
+let g:ctrlp_custom_ignore = 'bsp/atmel_asf/'
